@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css link -->
+    <link rel="stylesheet" href="bokkmarks.css">
+    <!-- box icon link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="border-b">
+        <div class="container">
+            <nav class="navbar flex items-center">
+                <ul class="flex p-[11px] items-center gap-[56px]">
+                    <li class="flex items-center">
+                        <img src="./assets/images/Group 193.png" alt="">
+                    </li>
+                    <li class="w-[670px] flex items-center gap-[10px] rounded-lg p-[14px]">
+                        <box-icon name='search' color='#E3E6EB'></box-icon>
+                        <input type="text" placeholder="Search books" class="search_input outline-none w-full">
+                    </li>
+                    <li class="flex items-center gap-[15px] ml-[105px]">
+                        <div class="modeBtn p-5">
+                            <i class='bx bxs-sun' style='color:#f68f05'></i>
+                        </div>
+                        <button class="rounded bg-[#0D75FF] w-[100px] py-[10px] px-[23px]"><a href="#"
+                                class="text-[#fff] text-base leading-normal font-normal not-italic">Logout</a></button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="result">
+        <div class="container">
+            <nav class="flex items-center gap-[616px] pt-[31px]">
+                <p class="ml-[295px]">Showing 18 Result(s)</p>
+                <div class="toast w-[200px] h-[34px] rounded flex items-center gap-1 py-2 px-3 bg-[#A6B0C3]">
+                    <box-icon name='calendar-alt' color='#ffffff'></box-icon>
+                    <p class="flex items-center text-[#fff] text-sm leading-normal font-medium">Order by newest</p>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section class="flex">
+        <div class="container flex">
+            <aside>
+                <div class="aside w-[268px] p-[25px] border-r h-full">
+                    <h1 class="text-[#000] font-normal text-2xl ">Bookmarks</h1>
+                    <p class="text-[#000] text-sm leading-normal pb-[5px]">If you don’t like to read, you haven’t found
+                        the right book</p>
+                    <ul class="flex flex-col">
+                        <li class="flex items-center gap-[10px]">
+                            <div class="li_title ">
+                                <p>Python</p>
+                                <span>David M. Beazley</span>
+                                <box-icon name='book-open' color="#757881" class="ml-[10px]"></box-icon>
+                                <box-icon name='x-circle' color="#757881"></box-icon>
+                            </div>
+
+
+                        </li>
+                        <li class="flex items-center gap-[10px]">
+                            <div class="li_title ">
+                                <p>Python</p>
+                                <span>David M. Beazley</span>
+                                <box-icon name='book-open' color="#757881" class="ml-[10px]"></box-icon>
+                                <box-icon name='x-circle' color="#757881"></box-icon>
+                            </div>
+
+                        </li>
+                        <li class="flex items-center gap-[10px]">
+                            <div class="li_title ">
+                                <p>Python</p>
+                                <span>David M. Beazley</span>
+                                <box-icon name='book-open' color="#757881" class="ml-[10px]"></box-icon>
+                                <box-icon name='x-circle' color="#757881"></box-icon>
+                            </div>
+
+                        </li>
+                    </ul>
+
+            </aside>
+            <div class="card_umumiy  gap-[15px]  grid grid-cols-3">
+                <!-- <div class="cards ml-[39px] mt-[40px] py-[13px] px-[18px] border  h-[445px]">
+                    <div class="card border">
+                        <div class="card-img_panel py-[18px] px-[20px]">
+                            <img src="./assets/images/Rectangle 356.png" class="object-cover" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="text-black text-base leading-normal  font-medium ">Python</h3>
+                            <p class="text-[#757881] text-[16px] leading-normal">David M. Beazley</p>
+                            <span class="text-[#757881] text-[16px] leading-normal">2009</span>
+                        </div>
+                        <div class="card_button flex items-center gap-[10px] pt-[10px] pb-[10px]">
+                            <button class="p-2 bg-[#FFD80D] rounded-[4px]">Bookmark</button>
+                            <button class="p-2 bg-[#F3F8FF]">More Info</button>
+                        </div>
+                        <button class="flex items-center justify-center text-center w-[210px] py-[10px] rounded-[4px] bg-[#75828A]">Read</button>
+                    </div>
+                </div>
+                <div class="cards ml-[39px] mt-[40px] py-[13px] px-[18px] border  h-[445px]">
+                    <div class="card border">
+                        <div class="card-img_panel py-[18px] px-[20px]">
+                            <img src="./assets/images/Rectangle 356.png" class="object-cover" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="text-black text-base leading-normal  font-medium ">Python</h3>
+                            <p class="text-[#757881] text-[16px] leading-normal">David M. Beazley</p>
+                            <span class="text-[#757881] text-[16px] leading-normal">2009</span>
+                        </div>
+                        <div class="card_button flex items-center gap-[10px] pt-[10px] pb-[10px]">
+                            <button class="p-2 bg-[#FFD80D] rounded-[4px]">Bookmark</button>
+                            <button class="bg-[#F3F8FF] p-2 bg-transparent">More Info</button>
+                        </div>
+                        <button class="flex items-center justify-center text-center w-[210px] py-[10px] rounded-[4px] bg-[#75828A]">Read</button>
+                    </div>
+                </div>
+                <div class="cards ml-[39px] mt-[40px] py-[13px] px-[18px] border  h-[445px]">
+                    <div class="card border">
+                        <div class="card-img_panel py-[18px] px-[20px]">
+                            <img src="./assets/images/Rectangle 356.png" class="object-cover" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="text-black text-base leading-normal  font-medium ">Python</h3>
+                            <p class="text-[#757881] text-[16px] leading-normal">David M. Beazley</p>
+                            <span class="text-[#757881] text-[16px] leading-normal">2009</span>
+                        </div>
+                        <div class="card_button flex items-center gap-[10px] pt-[10px] pb-[10px]">
+                            <button class="p-2 bg-[#FFD80D] rounded-[4px]">Bookmark</button>
+                            <button class="p-2 bg-[#F3F8FF]">More Info</button>
+                        </div>
+                        <button class="flex items-center justify-center text-center w-[210px] py-[10px] rounded-[4px] bg-[#75828A]">Read</button>
+                    </div>
+                </div> -->
+
+
+            </div>
+
+        </div>
+        </div>
+        </div>
+    </section>
+
+
+
+    <script src="./jscript.js"></script>
+</body>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+
+</html>

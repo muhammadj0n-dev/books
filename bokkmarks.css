@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1280px !important;
+    margin: 0 auto;
+}
+
+.aside{
+    background: #FFF;
+    box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.10);
+    height: 100vh;
+}
+
+.cards{
+border-radius: 5px;
+border: 0px solid #E3E6EB;
+background: #FFF;
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
+}
+.btn_bottom{
+    background: rgba(13, 117, 255, 0.05)
+}
+
+.dark-mode{
+    background-color: rgba(0, 0, 0, 0.717);
+    color: white;
+}
